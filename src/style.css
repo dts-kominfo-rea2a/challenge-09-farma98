@@ -1,0 +1,50 @@
+:root {
+  --color-primary: #5c821a;
+  --color-secondary: #c6d166;
+  --color-tertiary: #fafafa;
+}
+
+body {
+  background-color: var(--color-secondary);
+  color: var(--color-tertiary);
+  padding: 40px;
+  font-family: Sans-Serif;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+}
+
+.header {
+  background-color: var(--color-primary);
+  color: var(--color-tertiary);
+  padding: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  width: 50%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  width: 30%;
+  background-color: var(--color-tertiary);
+  padding: 5px;
+  margin: 10px 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--color-primary);
+}
+
+.contact-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
